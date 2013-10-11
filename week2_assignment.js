@@ -17,7 +17,6 @@ for (var i = string.length - 1; i>=0; i--) {
 		case "O":
 		case "U":
 		case "Y":
-
 			break;
 		default:
 			que += string[i];
@@ -28,3 +27,4 @@ for (var i = string.length - 1; i>=0; i--) {
 
 
  		
+//
