@@ -1,8 +1,8 @@
 
-var string = "Marbles is a chicken";
+var string = "Marbles A is a chicken";
 var que = "";
 		
-for (var i = string.length; i>=0; i--) {
+for (var i = string.length - 1; i>=0; i--) {
       
 	   switch (string[i]) {
 		case "a":
@@ -11,6 +11,13 @@ for (var i = string.length; i>=0; i--) {
 		case "o":
 		case "u":
 		case "y":
+		case "A":
+		case "E":
+		case "I":
+		case "O":
+		case "U":
+		case "Y":
+
 			break;
 		default:
 			que += string[i];
