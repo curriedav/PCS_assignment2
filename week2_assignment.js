@@ -1,5 +1,5 @@
 
-var string = "Marbles A is a chicken";
+var string = "Marbles is a chicken";
 var que = "";
 		
 for (var i = string.length - 1; i>=0; i--) {
