@@ -13,7 +13,7 @@ for (var i = string.length; i>=0; i--) {
 		case "y":
 			break;
 		default:
-			que = que + string[i];
+			que += string[i];
 			break;
 	};
  }
